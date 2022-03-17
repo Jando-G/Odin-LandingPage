@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.maincontainer {
+    margin: 0;
+}
+.flexbox-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+.flexbox-horizontal * {
+    flex: 1;
+}
+.flexbox-vertical {
+    display: flex;
+    flex-direction: column;
+}
+.flexbox-vertical * {
+    flex: 1;
+}
+.bg1 {
+    background-color: #1F2937;
+}
+.heromain {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.stext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
