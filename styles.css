@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
+}
+.align-right div{
+    text-align: right;
 }
 .maincontainer {
     margin: 0;
@@ -35,8 +38,24 @@
     font-size: 24px;
     color: #F9FAF8;
 }
-.flex-center {
-    display: flex;
-    align-items: center;
-    justify-content:center;
+.segment {
+    height: 1000px;
+}
+.flexsize1 {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 30px
+}
+.flexsize2 {
+    margin: 250px;
+}
+img {
+    height: 100%;
+}
+button {
+    background-color: #3882f6;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: 0;
 }
