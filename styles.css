@@ -5,6 +5,9 @@
 .align-right div{
     text-align: right;
 }
+.spacebetween {
+    justify-content: space-between;
+}
 .maincontainer {
     margin: 0;
 }
@@ -14,6 +17,7 @@
 }
 .flexbox-horizontal * {
     flex: 1;
+    min-width: 0;
 }
 .flexbox-vertical {
     display: flex;
@@ -21,9 +25,14 @@
 }
 .flexbox-vertical * {
     flex: 1;
+    min-width: 0;
 }
 .bg1 {
     background-color: #1F2937;
+}
+.bg2 {
+    background-color: #E5E7EB;
+    height: 500px;
 }
 .heromain {
     font-size: 48px;
@@ -32,14 +41,15 @@
 }
 .stext {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    text-decoration: none;
 }
 .header {
     font-size: 24px;
     color: #F9FAF8;
 }
 .segment {
-    height: 1000px;
+    height: 800px;
 }
 .flexsize1 {
     width: 75%;
@@ -47,7 +57,8 @@
     padding-top: 30px
 }
 .flexsize2 {
-    margin: 250px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 img {
     height: 100%;
@@ -58,4 +69,6 @@ button {
     height: 50px;
     border-radius: 8px;
     border: 0;
+    color:#F9FAF8;
+    font-size: 30px;
 }
