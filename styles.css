@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-.align-right div{
+.align-right{
     text-align: right;
 }
 .spacebetween {
@@ -38,7 +38,9 @@
 }
 .bg2 {
     background-color: #E5E7EB;
-    height: 500px;
+}
+.bg3 {
+    background-color:#3882f6;
 }
 .heromain {
     font-size: 48px;
@@ -57,8 +59,11 @@
 .segment {
     height: 800px;
 }
+.segmentsmall {
+    height: 600px;
+}
 .flexsize1 {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
 }
 .flexsize1b {
@@ -71,7 +76,6 @@
 }
 .centertext {
     margin: auto;
-    width: 50%;
     text-align: center;
     padding-top: 100px;
 }
@@ -80,6 +84,9 @@
     font-weight: bolder;
     color:#1F2937;
     margin-bottom: -85px;
+}
+.infoheader.align-right{
+    font-size: 25px;
 }
 img {
     height: 100%;
@@ -99,9 +106,16 @@ button {
     color:#F9FAF8;
     font-size: 30px;
 }
+.rounded {
+    border-radius: 14px;
+}
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color:#1f2937;
+    padding-top: 225px;
+}
+.whiteborder {
+    border: 3px solid white;
 }
