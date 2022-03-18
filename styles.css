@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 .align-right div{
     text-align: right;
@@ -17,14 +19,18 @@
 }
 .flexbox-horizontal * {
     flex: 1;
+    margin: 20px;
     min-width: 0;
 }
 .flexbox-vertical {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .flexbox-vertical * {
     flex: 1;
+    text-align: center;
     min-width: 0;
 }
 .bg1 {
@@ -54,14 +60,35 @@
 .flexsize1 {
     width: 75%;
     margin: 0 auto;
-    padding-top: 30px
+}
+.flexsize1b {
+    width: 65%;
+    margin: 0 auto;
 }
 .flexsize2 {
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.centertext {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin-bottom: -85px;
 }
 img {
     height: 100%;
+}
+.square {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    border: 3px solid #3882f6;
 }
 button {
     background-color: #3882f6;
@@ -71,4 +98,10 @@ button {
     border: 0;
     color:#F9FAF8;
     font-size: 30px;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color:#1f2937;
 }
